@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StayEasy</title>
+</head>
+<body>
+  <h3>Create A New Listing</h3>
+  <form method="POST" action="/listings">
+
+    <label for="title">Title:</label><br>
+    <input id="title" name="listing[title]" placeholder="Enter Your Title" type="text" required><br><br>
+
+    <label for="description">Description:</label><br>
+    <textarea id="description" name="listing[description]" placeholder="Enter Your Description" required></textarea><br><br>
+
+    <label for="image">Image URL:</label><br>
+    <input id="image" name="listing[image]" placeholder="Enter Your image URL/Link" type="text" required><br><br>
+
+    <label for="price">Price:</label><br>
+    <input id="price" name="listing[price]" placeholder="Enter Your Total price" type="number" required><br><br>
+
+    <label for="country">Country:</label><br>
+    <input id="country" name="listing[country]" placeholder="Enter Your Country" type="text" required><br><br>
+
+    <label for="location">Location Area:</label><br>
+    <input id="location" name="listing[location]" placeholder="Enter Your location area" type="text" required><br><br>
+
+    <button type="submit">Add New Listing</button>
+  </form>
+</body>
+</html>
