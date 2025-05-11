@@ -86,3 +86,25 @@ font-weight: 400 !important;
 .newform {
     padding: 20px; 
 }
+
+/* show image on  show page*/
+.show-img{
+    height:30vh;
+}
+.btns{
+    display:flex;
+}
+.edit-btn{
+   background-color: #fe424d !important;
+}
+.show-card{
+    padding-left: 0;
+    padding-right: 0;
+}
+#editBG {
+    background-color:rgba(245, 222, 179, 0.797);
+    opacity: 2;
+    margin:auto;
+    padding: 15px;
+    border-radius: 15px;
+}
